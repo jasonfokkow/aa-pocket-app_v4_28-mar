@@ -1,0 +1,114 @@
+.screen {
+  min-height: 100dvh;
+  background: var(--color-bg);
+  padding-bottom: calc(60px + env(safe-area-inset-bottom));
+}
+
+.body {
+  padding-top: 56px;
+}
+
+.divider {
+  height: 1px;
+  background: var(--color-divider);
+}
+
+.tabsWrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.tabsWrapper::-webkit-scrollbar { display: none; }
+
+.tabs {
+  display: flex;
+  padding: 0 var(--space-md);
+  gap: var(--space-lg);
+  white-space: nowrap;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.tab {
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  background: none;
+  border: none;
+  padding-bottom: 8px;
+  border-bottom: 2px solid transparent;
+  transition: color var(--transition-tab), border-color var(--transition-tab);
+  flex-shrink: 0;
+}
+
+.tabActive {
+  color: var(--color-text-primary);
+  border-bottom-color: var(--color-text-primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--color-divider);
+}
+
+.card {
+  background: var(--color-bg);
+  border: none;
+  padding: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  transition: background var(--transition-button);
+}
+
+.card:active {
+  background: var(--color-surface-subtle);
+}
+
+.imageArea {
+  aspect-ratio: 1 / 1;
+  background: var(--color-surface-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardInfo {
+  padding: var(--space-sm) var(--space-sm) var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cardBadges {
+  display: flex;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+  margin-bottom: 2px;
+}
+
+.cardName {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  line-height: 1.4;
+}
+
+.cardPrice {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.empty {
+  padding: var(--space-xl) var(--space-md);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  text-align: center;
+}

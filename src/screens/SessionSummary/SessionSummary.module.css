@@ -1,0 +1,115 @@
+.screen {
+  min-height: 100dvh;
+  background: var(--color-surface-highlight);
+  display: flex;
+  flex-direction: column;
+  padding-top: env(safe-area-inset-top, 24px);
+  padding-bottom: env(safe-area-inset-bottom, 24px);
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  padding: var(--space-xxl) var(--space-md) var(--space-lg);
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 26px;
+  font-weight: 400;
+  color: var(--color-text-primary);
+  line-height: 1.1;
+}
+
+.date {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.divider {
+  height: 1px;
+  background: var(--color-divider);
+}
+
+.section {
+  padding: var(--space-lg) var(--space-md);
+}
+
+.sectionHeading {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-warning-text);
+  margin-bottom: var(--space-md);
+}
+
+.weakList {
+  display: flex;
+  flex-direction: column;
+}
+
+.weakRow {
+  border-left: 2px solid var(--color-warning-text);
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.weakTitle {
+  font-family: var(--font-ui);
+  font-size: 15px;
+  color: var(--color-text-primary);
+}
+
+.allGood {
+  font-family: var(--font-ui);
+  font-size: 15px;
+  color: var(--color-success-text);
+}
+
+.nextDue {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.ctas {
+  margin-top: auto;
+  padding: var(--space-lg) var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.linkBtn {
+  font-family: var(--font-ui);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-accent);
+  text-align: center;
+  background: none;
+}
+
+.doneBtn {
+  height: 48px;
+  border: 1px solid var(--color-text-primary);
+  background: transparent;
+  font-family: var(--font-ui);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  transition: border-color var(--transition-button), color var(--transition-button);
+}
+
+.doneBtn:active {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}

@@ -1,0 +1,978 @@
+[
+  {
+    "id": "opening-matters",
+    "category": "operations",
+    "title": "Opening Matters",
+    "description": "Getting the store ready before and closing after your shift",
+    "summary": "Arrive 15 mins early. Enter with keypad code 1486 — place key back after. Light incense at entrance and back area. Switch on main lights left to right stopping at 'R', then all lighting points. Check battery lights are on and charged (charger under POS). Turn on 2 cassette ACs. Turn on audio (Crown then Gemini), select a playlist. Put Hitpay terminal on charge. Keep pantry door closed. End of shift: send sales report to staff chat, switch off all lights and ACs, turn off audio, stop charging and turn off Hitpay. If online order packed, place outside store and take a photo.",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Getting the store ready",
+          "note": "Please come 15 mins prior to your shift."
+        },
+        {
+          "heading": "Opening steps",
+          "type": "steps",
+          "steps": [
+            "Entering the store: Find locked keypad, passcode is 1486. Once unlocked, place key back into the keypad.",
+            "Scents: Burn incense to start the day. 2 points of scent — one at the entrance, one at the back area.",
+            "Lights: Switch on main lights (beside door), switch on from left to right and stop at 'R'. Switch on all lighting points in the store. Make sure all battery operated lights are on. Charger is under POS.",
+            "Aircon: Turn on 2 cassette AC units. If still not cool enough, turn on AC above the workshop table.",
+            "Audio: Turn on audio (Crown then Gemini). Select playlist. Adjust volume on Gemini 'Master' knob if needed.",
+            "Packages: Any packages left outside by non-team members — place on pantry table and note in closing sales report.",
+            "Kungyokudo Incense: Light all incense in their individual canister.",
+            "Hitpay Terminal: Put to charge, make sure it is turned on and connected.",
+            "Others: Ensure pantry door is closed at all times. Ensure POS table is cleared and ready. Fold any dry cloths on window pane and store under sink."
+          ]
+        },
+        {
+          "heading": "Closing steps",
+          "type": "steps",
+          "steps": [
+            "Sales Report: Send a brief sales report to staff chat at end of shift. Include: date, customers (new/returning, how found us), conversations worth noting, items of interest, sales made, special notes (order pickups, remarks).",
+            "Lights: Switch off all main lights and lighting points. Make sure all battery operated lights (Fores RIN) are switched off.",
+            "Aircon: Turn off all air conditioning units.",
+            "Audio: Turn off audio (Crown then Gemini).",
+            "Hitpay Terminal: Stop charging and turn off.",
+            "Pantry: If there is food in trash bin, dispose and replace bag. Clear coffee machine capsules and fill water. Wash all cups and cloths. Hang wet cloth on window pane to dry.",
+            "Online Order: If any online order packed during shift, place outside store and take a photo."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "housekeeping-schedule",
+    "category": "operations",
+    "title": "Housekeeping Schedule",
+    "description": "Weekly cleaning tasks and rotation",
+    "summary": "Housekeeping tasks rotate across 4 weeks. Week 1: Thu sweep/vacuum, Fri dust + wipe wooden furniture. Week 2: Sat sweep, Sun dust + wipe glass surfaces. Week 3: Thu dust + vacuum soft furnishing, Fri sweep. Week 4: Sat dust + polish metal, Sun sweep. Ongoing: cut more bubble wrap when low, clear food from trash.",
+    "contentType": "table",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Weekly rotation",
+          "type": "table",
+          "headers": ["Week", "Day", "Task"],
+          "rows": [
+            ["Week 1", "Thursday", "Sweep/Vacuum Floor"],
+            ["Week 1", "Friday", "Dust surfaces + dust lightings. Wipe down wooden furniture with damp cloth (squeeze dry first). Take a photo before removing items to remember placement."],
+            ["Week 2", "Saturday", "Sweep/Vacuum Floor"],
+            ["Week 2", "Sunday", "Dust surfaces + dust lightings. Wipe down glass surfaces with glass cleaner (in pantry box labelled 'Glass Cleaning'). Take a photo before removing items."],
+            ["Week 3", "Thursday", "Dust surfaces + dust lightings. Vacuum soft furnishing."],
+            ["Week 3", "Friday", "Sweep/Vacuum Floor"],
+            ["Week 4", "Saturday", "Dust surfaces + dust lightings. Polish metal parts using metal polisher and cloth. Take a photo before removing items."],
+            ["Week 4", "Sunday", "Sweep/Vacuum Floor"]
+          ]
+        },
+        {
+          "heading": "Other misc. to-do",
+          "type": "callout",
+          "items": [
+            "Bubble Wrap: Whenever bubble wrap runs low, please help to cut more.",
+            "Trash: If there is food in the trash or trash bin is full, please clear it."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "shopify-pos",
+    "category": "operations",
+    "title": "Using the Shopify POS",
+    "description": "Step-by-step checkout process on Shopify",
+    "summary": "Key in all products and verify quantity and price match the price tag. Add customer profile — search existing or create new (First name, Last name, Email, Phone). Ask about marketing consent. For existing customers, check their profile tags discreetly for discount eligibility (IND5/IND10/P5/FF5). Apply discount per item, not as a blanket fee — no discount on storage or delivery. For pickup/delivery at a later date, add order notes and untick 'Mark as fulfilled'.",
+    "contentType": "steps",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Checkout steps",
+          "type": "steps",
+          "steps": [
+            "Key in all products to be checked out. Ensure quantity is correct. Ensure price on Shopify matches the price tag.",
+            "Adding Customer Profile: Check if customer has shopped with us before. If yes — search customers, ask for name, confirm profile is correct. If no — get customer to fill profile: First name, Last name, Email, Phone number. All details required even for non-Singapore residents. Ask if they consent to our mailing list — if yes, select 'Accepts marketing'.",
+            "For existing customers, check discount eligibility discreetly. After adding to cart, tap customer name → scroll to 'tags' section. Look for: FF5 / P5 / IND5 / IND10 / IND15 / IND20. Do not announce you are checking.",
+            "If eligible for discounts: The percentage is the ending digit of the tag (e.g. IND5 = 5%, IND20 = 20%). Tap on each product → 'Apply discount to item'. Do NOT create a blanket discount — storage and delivery fees are excluded.",
+            "For orders to be picked up or delivered at a later date: Add notes to the order. State estimated pickup/delivery date. If only some items are delayed, specify which ones. Untick 'Mark as fulfilled'."
+          ]
+        },
+        {
+          "heading": "Important",
+          "type": "callout",
+          "text": "Never apply a blanket discount that includes delivery or storage fees. Apply discount per product item only."
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "shipping-fees",
+    "category": "logistics",
+    "title": "Shipping Fees",
+    "description": "Delivery fee tiers by item type and quantity",
+    "summary": "Small objects (incense, vase): $7 flat. Single furniture piece (fits DHL size 8, one-person carry): $50. 2–4 furniture pieces or heavy item: $85. 5–8 large pieces (bundle): $135. 5–8 extra-large pieces requiring assembly: $155. MOD Systems (incl. delivery + assembly): $50–$155. Stair surcharge: $10–$20 per flight — charged after delivery, not negotiated on the day.",
+    "contentType": "table",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Fee table",
+          "type": "table",
+          "headers": ["Shipping Type", "Fee", "Notes"],
+          "rows": [
+            ["Domestic Object Flat Rate", "$7", "Small objects: incense, 1x vase, incense holder, etc."],
+            ["Domestic Furniture Flat Rate", "$50", "Fits into 1x DHL size 8. Multiple items OK if delivery person can carry all in one trip from vehicle to doorstep."],
+            ["Domestic Furniture + Complexities", "$85", "Between 2–4 pieces of furniture. E.g. 4x dining chairs, 2x lounge chairs, or 1x desk (requires 2 people)."],
+            ["Domestic Furniture (Multiple Large Items)", "$135", "Bundle shipping 5–8 pieces. E.g. dining table + 4 chairs + 2 pendant lights + 4 ikebana vases OR 1x 3P sofa + living table + 2 pendant lights."],
+            ["Domestic Furniture (Multiple Extra Large)", "$155", "Bundle 5–8 pieces requiring assembly. Same examples as $135 tier."],
+            ["All MOD Systems (incl. delivery + assembly)", "$50–$155", "Price range based on system size. Actual fee confirmed upon order. Complexities add extra."],
+            ["Stair surcharge", "$10–$20 per flight", "Customer informed that stair charges are applied after delivery. Courier will not negotiate on the day. Invoice forwarded by Aa."]
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "storage-fees",
+    "category": "logistics",
+    "title": "Storage Fees",
+    "description": "Storage fee tiers and policies for reserved items",
+    "summary": "Regular priced items: 1–3 months free, 4–6 months $50/month, 7+ months $100/month. Reduced pricing items: must be cleared within the week — $50/month from month 1, $100/month from month 7. MOD only: 6 months free, then $100/month. Max storage period: 1 year for all items. No storage for plants. After 1 year, item released to sales floor and refund given only when sold (excluding storage, delivery, and credit card charges).",
+    "contentType": "table",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Store (Regular Priced)",
+          "type": "table",
+          "headers": ["Duration", "Fee"],
+          "rows": [
+            ["1 to 3 months", "Complimentary"],
+            ["4 to 6 months", "$50/month"],
+            ["7 months and above", "$100/month"]
+          ]
+        },
+        {
+          "heading": "Store (Reduced Pricing)",
+          "note": "Not applicable to Partners or Industry discounts. Anything sold on reduced pricing must be cleared within the week the order is made — no complimentary storage.",
+          "type": "table",
+          "headers": ["Duration", "Fee"],
+          "rows": [
+            ["1 to 6 months", "$50/month"],
+            ["7 months and above", "$100/month"]
+          ]
+        },
+        {
+          "heading": "MOD Only",
+          "type": "table",
+          "headers": ["Duration", "Fee"],
+          "rows": [
+            ["First 6 months", "Complimentary"],
+            ["6 months and above", "$100/month"]
+          ]
+        },
+        {
+          "heading": "Important",
+          "type": "callout",
+          "text": "All items maximum storage period: 1 year only. No storage offered for plants. After 1 year, item released to sales floor — refund given only when item is sold, and does not include storage fees, delivery charges, or credit card charges."
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "payment-method",
+    "category": "sales",
+    "title": "Payment Method",
+    "description": "Payment priority by customer type and spend amount",
+    "summary": "Local customers below $1000: 1. Paynow, 2. Cash (transfer to Aa's Paynow QR), 3. Credit card NO AMEX. Local customers above $1000: 1. Paynow, 2. Credit card NO AMEX. International customers below $1000: 1. Cash (transfer to Paynow QR), 2. Credit card NO AMEX. International above $1000: 1. Paynow, 2. Credit card NO AMEX. AMEX is never accepted.",
+    "contentType": "table",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Payment priority table",
+          "type": "table",
+          "headers": ["Customer Type", "Amount", "Priority Order"],
+          "rows": [
+            ["Local", "Below $1,000", "1. Paynow  2. Cash (transfer to Aa Paynow QR)  3. Credit Card — NO AMEX"],
+            ["Local", "Above $1,000", "1. Paynow  2. Credit Card — NO AMEX"],
+            ["International", "Below $1,000", "1. Cash (transfer to Aa Paynow QR)  2. Credit Card — NO AMEX"],
+            ["International", "Above $1,000", "1. Paynow  2. Credit Card — NO AMEX"]
+          ]
+        },
+        {
+          "heading": "Important",
+          "type": "callout",
+          "text": "NO AMEX accepted under any circumstances. Cash must be transferred to Aa's Paynow QR — do not hold cash without transferring."
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "hitpay-terminal",
+    "category": "operations",
+    "title": "Using Hitpay Terminal",
+    "description": "Step-by-step credit card payment via Hitpay",
+    "summary": "On Shopify, select 'Hitpay Credit Card'. Open the Hitpay app on the store iPad, tap Settings to confirm terminal is connected. On Home tab, key in the correct payment amount. Tap 'More Actions' → 'Add Description' → enter the Order Number and Customer Name. WisePad3 will show 'Tap to Pay'. After customer taps card, go back to Shopify and mark the order as paid manually.",
+    "contentType": "steps",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Steps",
+          "type": "steps",
+          "steps": [
+            "On Shopify POS, select 'Hitpay Credit Card' at checkout.",
+            "Open the Hitpay app on the store iPad. Tap 'Settings' and confirm the terminal shows 'Successfully Connected'.",
+            "On the Home tab, key in the correct payment amount as shown on Shopify POS. Tap 'More Actions'.",
+            "In More Actions, tap 'Add Description'. Enter the Order Number (e.g. #0000) and the Customer's Name.",
+            "The WisePad3 terminal will light up showing 'Tap to Pay'. Allow the customer to tap their card.",
+            "After payment completes on Hitpay, return to Shopify and mark the order as paid manually — same as for Paynow."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "gift-cards",
+    "category": "sales",
+    "title": "Gift Cards",
+    "description": "Selling and redeeming Aa gift cards",
+    "summary": "Gift cards come in $50 and $100 denominations, valid for 1 year from purchase. To sell: locate under POS, check out as usual, note the gift code in the order note, write expiry date (1 year from purchase) on the back in black pen, pack in Aa envelope. To redeem: at checkout select 'Gift card' → 'Redeem' → enter code. Remind customers: valid 1 year, usable in-store and online, balance splits across transactions.",
+    "contentType": "steps",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Selling gift cards",
+          "type": "steps",
+          "steps": [
+            "Locate gift cards under the POS. Two denominations: $50 and $100 — ensure you take the correct one.",
+            "Check out gift card as per usual SOP. In the order note, write the GIFT CODE number. If multiple: $50 — XXXXXXXXXXXX / $100 — XXXXXXXXXXX",
+            "At the back of the gift card, write the expiry date (1 year from purchase date) in black pen. E.g. if purchased 7 Dec 2024, write '7 Dec 2025'.",
+            "Pack the gift card in an Aa envelope (found under POS).",
+            "Inform customer: valid 1 year from purchase, redeemable in-store and online, balance does not need to be spent in one transaction."
+          ]
+        },
+        {
+          "heading": "Redeeming gift cards",
+          "type": "steps",
+          "steps": [
+            "Check out as per usual SOP. At payment, tap 'Gift card'.",
+            "Tap 'Redeem'. In the next screen, enter the gift code (scan barcode or type manually)."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "discounts",
+    "category": "sales",
+    "title": "Discounts",
+    "description": "Rules for applying discounts — profile-based and discretionary",
+    "summary": "Always check customer profile tags first: IND5/IND10/P5 = 5–10% individual, FF5/STAFF = Friends & Family or staff. Discretionary 5–10% only when: customer buying multiple pieces, breaking up a set, high-value hesitating buyer, or sealing a deal. Never discount new arrivals or items under $100. Never offer discount if item is already on reduced pricing. If customer demands freebies or 10–20% off, decline firmly and politely. Record all discretionary discounts in the sales report (order number, % given, reason).",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Discount categories",
+          "type": "table",
+          "headers": ["Category", "Discount", "Notes"],
+          "rows": [
+            ["Regulars (P5 / FF5)", "5%", "Friends & Family or loyal regulars."],
+            ["Industry (IND5–IND20)", "5–20%", "Based on cumulative spend: $1–$9,999 = 5%, $10k–$19,999 = 10%, $20k–$34,999 = 15%, $35k+ = 20%. New industry clients: no discount on first purchase — must email us first. Renewed yearly subject to approval."],
+            ["Staff", "20%", "Staff purchases only."]
+          ]
+        },
+        {
+          "heading": "Discretionary discounts (5–10%)",
+          "type": "callout",
+          "text": "May offer 5–10% at your discretion only when: customer considering 2+ pieces, breaking up a set, significant purchase value with hesitation, or sealing a deal. Instead of discount, you may offer reduced delivery fee (e.g. $50 instead of $85 for 2 chairs)."
+        },
+        {
+          "heading": "Do not discount",
+          "type": "callout",
+          "text": "No discounts on: new arrivals or latest shipment items, items under $100, items already on reduced pricing. If customer asks for freebies or 10–20% off, decline firmly and politely — we do not negotiate."
+        },
+        {
+          "heading": "Logging discounts",
+          "type": "steps",
+          "steps": [
+            "Record in the sales report: Order number, discount % given, and reason (e.g. 'multiple items', 'sealing the deal').",
+            "If unsure whether to offer a discount, message the team before proceeding."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "moving-units",
+    "category": "products",
+    "title": "Moving Units",
+    "description": "Selling the Aa MOD modular shelving system",
+    "summary": "Moving Units = refurbished USM Haller structural parts (Japan) + brand new Konektra (Germany) panels. Always refer to it as 'Moving Units', never 'USM'. Can configure most things except certain sizes and attachments. Many Aa designs cannot be replicated at USM Haller. Lead time: 2–3 months if parts not in stock. When customer shows interest: understand what they want, fill in the Google form together, share physical swatches. Deposit: 70% non-refundable upon confirmation, 30% before delivery. Credit card = 100% upfront.",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "What is Moving Units",
+          "type": "steps",
+          "steps": [
+            "A mix of preowned USM Haller parts (Japan) with brand new Konektra (Germany) original compatible panels.",
+            "Some colours and finishes are not available from USM Haller (e.g. Rust).",
+            "We can configure most things except certain sizes and attachments.",
+            "Many of our designs cannot be configured at USM Haller.",
+            "Lead time is 2–3 months if parts are not in stock."
+          ]
+        },
+        {
+          "heading": "When customer shows interest",
+          "type": "steps",
+          "steps": [
+            "Understand what they are looking for — existing Moving Units designs, or custom configuration.",
+            "Check if they are familiar with the system and explain what we offer.",
+            "Fill up the Google form together, for them, or allow them to do it independently.",
+            "Share physical swatches so they can view and feel panels under warm and natural lighting.",
+            "Response time: 1 hour to 1 week.",
+            "Once confirmed: 70% non-refundable deposit required. Remaining 30% before delivery. If paying by credit card, 100% upfront."
+          ]
+        },
+        {
+          "heading": "Dos and Don'ts",
+          "type": "callout",
+          "text": "Always say 'Moving Units' — never 'USM'. Colour availability only via email quotation. Ask customer to select top 3 colour choices so we can determine which can be fulfilled first."
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "blanks-project",
+    "category": "products",
+    "title": "Blanks Project",
+    "description": "Custom upholstered Ligne Roset Calin sofas",
+    "summary": "The Blanks Project applies only to the Ligne Roset Calin — an out-of-production model we source regularly. Customer selects fabric from our swatches. Production time: 2–3 weeks. Prices: 1P $2,375, 2P $3,450, Ottoman $950, 1P with Ottoman $3,175, 2P with Ottoman $4,250. If stock available: 100% upfront after fabric selection. If sourcing needed: 70% deposit, 30% before delivery. Credit card = 100% upfront.",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "How to handle inquiries",
+          "type": "steps",
+          "steps": [
+            "Take down customer details or direct them to submit a Personal Shopper request on the webstore.",
+            "Specify requirements: 1P or 2P, with or without Ottoman.",
+            "Do not process any payment at this stage.",
+            "Share fabric swatches for discussion and selection.",
+            "If available pieces in stock: once fabric is selected, 100% immediate payment collected.",
+            "If no available pieces: Bryan will source. 70% non-refundable deposit upon confirmation. 30% before delivery. Credit card = 100% upfront."
+          ]
+        },
+        {
+          "heading": "Price reference",
+          "type": "table",
+          "headers": ["Item", "SKU", "Price (incl. fabric)"],
+          "rows": [
+            ["Ligne Roset Calin 1P", "BLANKS-LRC1", "$2,375"],
+            ["Ligne Roset Calin 2P", "BLANKS-LRC2", "$3,450"],
+            ["Ligne Roset Ottoman", "BLANKS-LRO", "$950"],
+            ["Ligne Roset Calin 1P with Ottoman", "BLANKS-LRC1-SET", "$3,175"],
+            ["Ligne Roset Calin 2P with Ottoman", "BLANKS-LRC2-SET", "$4,250"]
+          ]
+        },
+        {
+          "heading": "Estimated production time",
+          "type": "callout",
+          "text": "2–3 weeks as fabric will need to be pre-ordered."
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "sale-of-sugy-clock",
+    "category": "products",
+    "title": "Sale of Sugy Clock",
+    "description": "Steps to demonstrate and sell Sugy clocks",
+    "summary": "Remove battery, remove plastic film (keep it). Demonstrate the clock is working — no second hand, so check the gears shifting at the back. Ensure customer sees this. Replace plastic film, put batteries back. Advise customer to use cheap disposable batteries only — rechargeable batteries can damage the clock mechanism.",
+    "contentType": "steps",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Sale steps",
+          "type": "steps",
+          "steps": [
+            "Remove the battery from the clock. Remove the plastic film but do not throw it away.",
+            "As the clocks do not have a second hand, the way to tell it is working is from the gears shifting at the back.",
+            "Ensure the customer sees the clock working.",
+            "Remove battery, place the plastic film back into original position, and put the batteries back.",
+            "Advise customer to replace batteries with any cheap (non-rechargeable) ones — rechargeable batteries can ruin the clock mechanics."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": ["sugy-clock"]
+  },
+  {
+    "id": "sale-of-washi-light",
+    "category": "products",
+    "title": "Sale of Washi Light",
+    "description": "Steps to check, demonstrate, and sell washi paper lights",
+    "summary": "Provide correct complimentary bulb (E17/E27/E14 — try to fit if unsure). For table/standing lights, provide complimentary converter plug. Throw away existing Japan bulbs. Open shade and ask customer to check for tears or holes. Do light test for table/battery/standing lights. For pendant lights: discuss installation options — our contractor or their own (we won't be liable if they use their own). After checks, communicate no returns or exchanges. Cut Japanese adapter for pendant lights after checks. Care: feather dust only.",
+    "contentType": "steps",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Sale steps",
+          "type": "steps",
+          "steps": [
+            "Provide complimentary bulbs based on model purchased. Know the difference between E17, E27, E14. If unsure, try fitting the bulb in the holder.",
+            "For all table lights / standing lights: provide complimentary converter plug.",
+            "Throw away the existing Japan bulbs in the box.",
+            "Explain the contents — paper in the box shows how to assemble. Very straightforward, no force needed.",
+            "Do not use wet hands to assemble the lamp — the shade is made of paper.",
+            "Open the lampshade and ensure the customer checks for any tears or holes.",
+            "For table/battery/standing lights: do a light test using the complimentary bulb and converter plug. Customer must see the light working.",
+            "For pendant lights: check if they require assembly. Communicate that our trusted contractor ensures smooth installation. If they use their own contractor, we won't be liable for any damages. See 'Pendant Light Installation' SOP.",
+            "After checks: let them know there will be no returns or exchanges. If assembly issues arise, DM us to troubleshoot.",
+            "For all washi pendant lights: cut the Japanese adapter after the light shades have been checked. See 'Remove Japanese Adapter' SOP.",
+            "Care instruction: feather dust only."
+          ]
+        },
+        {
+          "heading": "For RIN series (hand-held, battery type)",
+          "type": "steps",
+          "steps": [
+            "Open lampshade and ensure customer checks for any tears or holes.",
+            "Pop in store battery to test the light. Customer must see it working.",
+            "Communicate no returns or exchanges."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": ["washi-light-s", "washi-light-m", "fores-rin"]
+  },
+  {
+    "id": "removing-japanese-adapter",
+    "category": "products",
+    "title": "Removing Japanese Adapter",
+    "description": "How to remove the Japanese adapter from washi pendant lights",
+    "summary": "After showing the customer the light shades, cut the Japanese adapter in front of them. Explain it is unnecessary in Singapore and removed to avoid confusion for contractors. Tape the adapter section securely. Use fabric scissors to cut firmly and cleanly. Check cable ends are neat. Dispose of the removed adapter.",
+    "contentType": "steps",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Steps",
+          "type": "steps",
+          "steps": [
+            "Tape the adapter section securely, following the same method used for cutting custom fabric cables.",
+            "Using the fabric scissors located near the Japanese adapter, cut firmly and cleanly.",
+            "Check the cable ends are neat and match the standard finish.",
+            "Dispose of the removed Japanese adapter — it is not required and should be discarded."
+          ]
+        },
+        {
+          "heading": "Why we do this",
+          "type": "callout",
+          "text": "The Japanese adapter is unnecessary in Singapore. We remove it in front of the customer to avoid confusion, as some contractors are hesitant to cut it themselves."
+        }
+      ]
+    },
+    "relatedProductIds": ["washi-light-s", "washi-light-m"]
+  },
+  {
+    "id": "pendant-light-installation",
+    "category": "products",
+    "title": "Pendant Light Installation",
+    "description": "Installation service for pendant and ceiling lights",
+    "summary": "Installation service is $100 (ceiling below 3M). Ceiling 3.1–3.5M: $130. Requires an existing lighting point. Only for in-store or Instagram DM purchases — not for online purchases. Customers who purchase installation with their lights get complimentary wire replacement and we deliver the lights on install day — no extra delivery fee. If they've already purchased separately, $18 on-site wire replacement fee applies (paid to installation company on the day). Check customer's preferred date and let them know we'll confirm via email.",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Service pricing",
+          "type": "table",
+          "headers": ["Ceiling Height", "Price"],
+          "rows": [
+            ["Below 3M (standard HDB / condo)", "$100"],
+            ["3.1M – 3.5M", "$130"]
+          ]
+        },
+        {
+          "heading": "Requirements",
+          "type": "steps",
+          "steps": [
+            "Ceiling height must be below 3M (standard for most HDBs, condos, and walk-up apartments).",
+            "An existing lighting point must be available at the installation location.",
+            "Service applies only to hanging/pendant or ceiling lights.",
+            "Only for in-store or Instagram DM purchases — NOT applicable to online purchases."
+          ]
+        },
+        {
+          "heading": "Complimentary wire replacement",
+          "type": "callout",
+          "text": "Customers who purchase installation service WITH their lights: no need to take purchase with them, no extra delivery fee. We hand lights to Jason for wire replacement before installation. Installation team brings lights on the day. If they have already purchased lights/wires/installation separately, an additional $18 on-site wire replacement fee applies (paid directly to installation company)."
+        },
+        {
+          "heading": "After the sale",
+          "type": "steps",
+          "steps": [
+            "Check with customer on their preferred date and time for installation.",
+            "Let them know we will liaise via email once we confirm availability with our lighting partner."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": ["washi-light-s", "washi-light-m"]
+  },
+  {
+    "id": "sale-of-incense-sampler",
+    "category": "products",
+    "title": "Sale of Incense Sampler",
+    "description": "Packing and selling the Kungyokudo incense sampler",
+    "summary": "Incense samplers let customers pick specific Kungyokudo scents in smaller sizes (5 sticks per scent). Samplers are at the BOH shelving. Stick the correct scent label onto the test tube. Ensure 5 sticks of the same scent are in the tube. Check out using the 'sampler' variant — not a full box.",
+    "contentType": "steps",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Packing steps",
+          "type": "steps",
+          "steps": [
+            "All incense samplers are found at the BOH shelving.",
+            "Find the stack of clear labels with scent names. Stick the correct label onto the test tube.",
+            "Ensure the finished sampler has 5 sticks of the same scent in the tube and the label is correct.",
+            "At checkout, select the 'sampler' variant — not a full box of incense."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": ["kungyokudo-incense"]
+  },
+  {
+    "id": "display-pieces-preorders",
+    "category": "sales",
+    "title": "Display Pieces and Preorders",
+    "description": "Rules for selling display pieces and handling preorders",
+    "summary": "Display pieces can only be sold if we've decided to discontinue an evergreen item. Display pieces are in-store only — not available online. Discount up to 20% only if a scratch mark is present (assess severity). Do not sell display pieces for restockable evergreen items — offer a preorder instead. For preorder dates, always be vague (e.g. 'It will reach in August') and mention possible delays. Note order number and any discount in the sales report.",
+    "contentType": "steps",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Display piece rules",
+          "type": "steps",
+          "steps": [
+            "Selling a display piece is only possible if we've decided to discontinue an evergreen item.",
+            "Display pieces are not available online — only in-store where customers can inspect condition first.",
+            "A discount of up to 20% can be given only if a scratch mark is present. Base the discount on how serious the mark is. If unsure, excuse yourself and check with the team.",
+            "Do not sell display pieces for restockable evergreen items — get the customer to place a preorder instead.",
+            "For preorder arrival dates, always be vague (e.g. 'It will reach in August', not 'It will reach the 2nd week of August'). Inform customers there may be shipment delays.",
+            "When a display piece is sold, note the order number in the sales report and mention if a discount was given and why."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "sale-of-furniture",
+    "category": "products",
+    "title": "Sale of Furniture",
+    "description": "Post-sale handling of sold furniture on the shop floor",
+    "summary": "After selling small-mid items (chairs, stools, coat racks): put 'OOPS...SOLD' tag on item during store hours, notify customer we'll hold it until end of shift/weekend. After hours: remove, clean, wrap securely, write reservation label, tape it visibly on cling wrap, place in back of house. For big items (sofas, cabinets, desks): put sold tag, notify customer, take photo and report to staff chat. For all items: check fragile parts are wrapped, check furniture stoppers, ensure lightings have converter plugs and light test done.",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Small to mid-sized items (chairs, stools, coat racks, mirrors)",
+          "type": "steps",
+          "steps": [
+            "During store hours: Put 'OOPS...SOLD' tag on item. Notify customer the item stays on the floor until end of shift/weekend — major VM shift only after the weekend.",
+            "After store hours or when no customers: Remove sold items from shop floor.",
+            "Clean and wrap securely — no holes in wrapping.",
+            "Write reservation details on reservation label. Tape label visibly on cling wrap.",
+            "Place wrapped items in back of house. Darren will shift them to warehouse.",
+            "Take photo of the empty area. Notify staff chat in end-of-day sales report. Bryan will follow up with the action plan."
+          ]
+        },
+        {
+          "heading": "Big items (sofas, cabinets, day beds, desks, dining tables)",
+          "type": "steps",
+          "steps": [
+            "Put 'OOPS...SOLD' tag on item. Notify customer the item stays until end of shift/weekend.",
+            "Take photo of area and notify staff chat in end-of-day sales report. Bryan will follow up.",
+            "Darren will schedule wrapping and packing into warehouse."
+          ]
+        },
+        {
+          "heading": "For all items",
+          "type": "steps",
+          "steps": [
+            "Ensure fragile items are properly wrapped — no dangling parts.",
+            "Check if furniture stoppers are worn out — replace with new set if so.",
+            "Ensure all lightings with electrical points come with complimentary converter plugs. Do a light test before sale."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "personal-shopper",
+    "category": "sales",
+    "title": "Personal Shopper",
+    "description": "How to handle personal shopper requests for specific pieces",
+    "summary": "The Personal Shopper service is for customers seeking specific vintage pieces. If a customer can't find what they want, refer them to this service. Submit request via the form on the webstore. Bryan is the main contact via email. Multiple options presented initially, then narrowed down. Deposit: 70% non-refundable upon confirmation, 30% before delivery. Credit card = 100% upfront. Price ranges: dining chairs $300+, dining tables $2,000+, sideboards $2,500+, bookshelves $2,000+, floorlamps $1,000+, collector pieces at market price.",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Price ranges by category",
+          "type": "table",
+          "headers": ["Category", "Price Range"],
+          "rows": [
+            ["Dining chairs", "$300 and above (per piece)"],
+            ["Dining tables", "$2,000 and above"],
+            ["Sideboards", "$2,500 and above"],
+            ["Bookshelves", "$2,000 and above"],
+            ["Floorlamps", "$1,000 and above"],
+            ["Collector pieces", "Based on market price"]
+          ]
+        },
+        {
+          "heading": "How it works",
+          "type": "steps",
+          "steps": [
+            "Send all personal shopper requests through the form on the webstore. You can fill it in for the customer or let them do it independently.",
+            "Bryan is the main point of contact via email — he shares images and dimensions during sourcing trips.",
+            "Multiple options will be presented initially, then narrowed down.",
+            "Once confirmed: 70% non-refundable deposit. Remaining 30% before delivery. Credit card = 100% upfront.",
+            "Shipping fee is included in the quotation unless otherwise stated."
+          ]
+        },
+        {
+          "heading": "Estimated delivery time",
+          "type": "callout",
+          "text": "Delivery timing depends on: customer's clarity on what they want, timing of the next shipment, and our ability to acquire the requested pieces."
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "reupholstering-swatches",
+    "category": "sales",
+    "title": "Reupholstering & Swatches",
+    "description": "Handling fabric swatch consultations for reupholstering",
+    "summary": "When a customer wants to reupholster a furniture piece: invite them to sit in a well-lit area, serve tea if needed, bring out the fabric swatch box. After they choose, note the material code and take their name and email. Let them know we'll get back within a week with cost and timing. Communicate that reupholstery cannot be changed once the fabric is confirmed and ordered from the supplier.",
+    "contentType": "steps",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Steps",
+          "type": "steps",
+          "steps": [
+            "Invite customers to sit down in a bright lit area in the store.",
+            "Serve tea if necessary.",
+            "Bring out the fabric swatch box. Run them through what's available and the price range.",
+            "After they decide on the swatch, note down the material code (or codes). Take their name and email.",
+            "Let them know we will get back within a week with total cost and timing based on their selection.",
+            "Communicate that reupholstery cannot be changed after fabric is confirmed and ordered from our supplier."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "how-to-measure",
+    "category": "operations",
+    "title": "How to Measure Products",
+    "description": "Measurement standards and formatting for all products",
+    "summary": "Always measure in cm. Format: L x D x H cm. For chairs: L x D x H x SH cm (SH = seat height from floor). Circular items: Ø x H cm. Round decimals up or down (0.5 is kept). For items with multiple components, measure each separately. For adjustable items, measure shortest and longest. For items that open/close, measure both states. Never round 0.5cm.",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Format reference",
+          "type": "table",
+          "headers": ["Item Type", "Format"],
+          "rows": [
+            ["Large furniture (tables, cabinets)", "L00 × D00 × H00 cm"],
+            ["Chairs", "L00 × D00 × H00 × SH00 cm (SH = Seat Height from floor)"],
+            ["Smaller items", "L00 × D00 × H00 cm"],
+            ["Circular items", "Ø00 × H00 cm"],
+            ["Circular with smaller mouth", "Ø00 × H00 cm / Mouth Ø00 cm"],
+            ["Multi-component set", "Measure each part separately and label"],
+            ["Adjustable items", "L00 × D00 × H00(Shortest)~00(Longest) cm"],
+            ["Items that open/close", "Opened — L00 × D00 × H00 cm / Closed — L00 × D00 × H00 cm"]
+          ]
+        },
+        {
+          "heading": "Rounding rules",
+          "type": "callout",
+          "text": "Always round decimals up or down for ease (e.g. 0.2 → 0, 0.7 → 1). Leave the decimal if it is 0.5 cm. Always measure in cm only."
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "general-care-plants",
+    "category": "products",
+    "title": "General Care for Plants",
+    "description": "Care instructions for all plants sold in store",
+    "summary": "Our media (soil) is refined for indoor growing: general media includes Pumice, Perlite, Orchiata Bark, Coco Chips; arid media includes Akadama, Pumice, Kanuma. Plants are categorised as low-light (indirect light) or sun-loving (direct/bright indirect). Fertiliser: Osmocote added — add more every 6 months. Pest control: use DE (Diatomaceous Earth) if bugs appear — safe for children and pets. Follow the watering guide tag on each plant. If unsure about more detail, ask Darren on staff chat.",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Care guide",
+          "type": "table",
+          "headers": ["Aspect", "Details"],
+          "rows": [
+            ["Soil (Media)", "General: Pumice stones, Perlite, Orchiata Bark, Coco Chips. Arid: Akadama, Pumice, Kanuma stones. All refined for indoor growing."],
+            ["Lighting", "Low light plants: indoor, indirect light. Sun loving plants: prefer sunlight or indirect bright light."],
+            ["Fertilizer", "General Osmocote added. Add more every 6 months for optimal growth."],
+            ["Pest Control", "Ants or bugs may appear. Add DE (Diatomaceous Earth) every few days if needed. DE is children and pet-safe."],
+            ["Watering", "Follow the watering guide tag on each plant. Do not over-water."]
+          ]
+        },
+        {
+          "heading": "Unsure about a question?",
+          "type": "callout",
+          "text": "Reach out to Darren on staff chat. If Darren doesn't reply in time, note the customer's name and let them know we'll follow up via email."
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "online-store-packing",
+    "category": "logistics",
+    "title": "Online Store Packing",
+    "description": "How to pack online orders for delivery or self-collection",
+    "summary": "For delivery: remove price tags, wipe bigger pieces, check lights for tears and do light test, pack bulbs and converter plug (no converter for overseas), pack in bubble wrap + cling wrap into DHL sleeve or box, slot in Aa greeting card, print DO and tape to exterior, place outside store, notify staff chat with photo. For self-collection: similar prep but don't wrap lights — wait for customer to do the shade check and light test in-store. Place in warehouse with customer name/order number. Notify staff chat with photo.",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "For delivery",
+          "type": "steps",
+          "steps": [
+            "For small vintage goods: remove price tag if any.",
+            "For bigger pieces: wipe down surfaces. Apply metal polisher if required.",
+            "For lights: photograph the shade at 360° to confirm no holes. Provide necessary bulbs and converter plug (overseas deliveries do not need converter plug). Do a light test.",
+            "Pack in bubble wrap and cling wrap. Slot into DHL sleeve or DHL box. If it doesn't fit, wrap securely.",
+            "Slot 1 Aa greeting card into the package.",
+            "Print DO (delivery order) and tape securely to the exterior.",
+            "Place outside the store for courier collection.",
+            "Send a photo to staff chat to confirm order is packed and ready."
+          ]
+        },
+        {
+          "heading": "For self-collection",
+          "type": "steps",
+          "steps": [
+            "For small vintage goods: remove price tag if any.",
+            "For bigger pieces: wipe down surfaces. Apply metal polisher if required.",
+            "For lights: do NOT wrap. Wait for customer to come so we can show them the washi paper and do a light test. Prep complimentary bulbs and converter plug in advance.",
+            "Pack other items with bubble wrap and cling wrap. Write customer name and order number on tape and stick to the cling wrap. For lights, stick tape on the box.",
+            "Place packed order in the warehouse. Indicate reserved item details in the inventory checklist.",
+            "Send a photo to staff chat to confirm order is packed and ready."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "using-niimbot",
+    "category": "operations",
+    "title": "Using the Niimbot",
+    "description": "How to print product labels using the Niimbot label printer",
+    "summary": "Niimbot printer is under the pantry table beside the window. Pick the right label size (we use various sizes) and finish (clear or opaque white). Load labels with sticker side down — tighten both sides. On the store iPad, open Niimbot app and connect the printer. Create new label artwork, delete existing elements, rotate artboard for portrait if needed. Find artwork in 'Collections' folder. Do a test print if printing more than 1. Adjust print density to control black darkness.",
+    "contentType": "steps",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Steps",
+          "type": "steps",
+          "steps": [
+            "Locate the Niimbot Label Printer under the pantry table beside the window area.",
+            "Pick the right label size and finish (clear or opaque white — we use various sizes across products).",
+            "Load the labels with the sticker side facing down. Tighten both sides to secure.",
+            "Open the Niimbot app on the store iPad. Connect to the label printer.",
+            "Create a new label artwork. Delete all existing elements on the board. If printing portrait, rotate the artboard.",
+            "Open the image from the Collections folder. Adjust as needed.",
+            "If printing more than 1, do a test print first. Adjust 'print density' to control darkness of blacks."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "exchanges",
+    "category": "sales",
+    "title": "Exchanges",
+    "description": "Exchange policy and process — no refunds",
+    "summary": "Exchanges only — no refunds, no store credit. Evergreen items only. Within 14 days of purchase. Item must be in original packaging, unused, with all components present. Must be exchanged for equal or higher value. One-time per transaction. For equal value: photo both items, notify customer it's one-time, update Shopify order notes, inform Reihan. For higher value: same steps + manually calculate price difference and charge customer. Invoice will be updated within 2 days.",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Eligibility check",
+          "type": "steps",
+          "steps": [
+            "Inspect item: must be in original packaging, unused condition, with all components present (unless item is damaged and stated).",
+            "Confirm original purchase receipt. Check purchase date is within 14 days.",
+            "Confirm item is evergreen (not vintage). No exchanges on vintage items.",
+            "Exchanges only — no refunds, no store credit."
+          ]
+        },
+        {
+          "heading": "Exchange policy to communicate",
+          "type": "callout",
+          "text": "We offer exchanges only — no refunds. Item must be exchanged for equal or higher value. One-time per transaction — no further exchanges for the same purchase."
+        },
+        {
+          "heading": "Processing equal value exchange",
+          "type": "steps",
+          "steps": [
+            "Take a photo of both the original item and the exchanged item(s). List down the SKU.",
+            "Inform customer this is a one-time exchange.",
+            "Inform Reihan of the initial order number and send list of exchanged items.",
+            "In Shopify, go to original order and add a note with the exchange reason and items exchanged for.",
+            "Inform staff chat during sales report."
+          ]
+        },
+        {
+          "heading": "Processing higher value exchange",
+          "type": "steps",
+          "steps": [
+            "Take a photo of both items. List down the SKU.",
+            "Inform customer this is a one-time exchange.",
+            "Key in all items the customer wants. Manually calculate the price difference.",
+            "Inform customer to make payment for the difference — we'll send an updated invoice within 2 days.",
+            "Inform Reihan, update Shopify order notes, inform staff chat."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "price-tags",
+    "category": "operations",
+    "title": "Price Tags",
+    "description": "How to present price tags on items in store",
+    "summary": "Two methods: hanging tags (preferred whenever possible) or plastic tags. For below eye-level placement, lay plastic tags flat. For above eye-level, stand them upright. Never stick price tag labels directly onto surfaces — it can damage the surface.",
+    "contentType": "steps",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Methods",
+          "type": "steps",
+          "steps": [
+            "Always hang the tag if possible — this is the preferred method.",
+            "If hanging is not possible, use a plastic tag.",
+            "Below eye-level placement: lay the plastic tag flat.",
+            "Above eye-level placement: stand the plastic tag upright.",
+            "Never stick price tag labels directly onto product surfaces — it may damage or mark the surface."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "tapes-labels-boxes",
+    "category": "operations",
+    "title": "Tapes, Labels and Boxes",
+    "description": "Tape colour coding, label colour meanings, and vintage boxes",
+    "summary": "Tape colours: Yellow = needs maintenance, Blue = for sale but in warehouse (no space), Red = sold and reserved for pickup/delivery or for sealing, White = general non-retail use. Round label colours: Purple = 10% off, Green = 30% off, Brown = 50% off, Orange = 70% off, White = preorder (write 'PO') or style variant (e.g. 'A/B/C') or display-only (write 'DP'). Use black pen on white labels. Vintage goods in original boxes: pack with the original box — box location documented on Shopify.",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Tape colour codes",
+          "type": "table",
+          "headers": ["Colour", "Meaning"],
+          "rows": [
+            ["Yellow", "Items that require maintenance"],
+            ["Blue", "Items for sale but placed in warehouse due to lack of space"],
+            ["Red", "Items already sold, reserved for future delivery or pickup. Also used for packaging and sealing envelopes."],
+            ["White", "General use — non-retail related"]
+          ]
+        },
+        {
+          "heading": "Round label colour codes",
+          "type": "table",
+          "headers": ["Colour", "Meaning"],
+          "rows": [
+            ["Purple", "10% off"],
+            ["Green", "30% off"],
+            ["Brown", "50% off"],
+            ["Orange", "70% off"],
+            ["White", "Preorder (write 'PO') / Style variant (e.g. 'A/B/C') / Display only (write 'DP') — always use black pen"]
+          ]
+        },
+        {
+          "heading": "Vintage goods in original boxes",
+          "type": "callout",
+          "text": "Some vintage designer pieces come in original boxes stored at the BOH shelving. When sold, pack the item with its original box. The box is documented with the product on Shopify."
+        }
+      ]
+    },
+    "relatedProductIds": []
+  },
+  {
+    "id": "warehouse",
+    "category": "logistics",
+    "title": "Warehouse",
+    "description": "Warehouse organisation and item management",
+    "summary": "We have 2 warehouses: Warehouse A (in store) and Warehouse B (Omnicorp, beside our store). All items must be properly bubble and cling wrapped with no holes. Label items with Name, SKU, and quantity. Large items (cabinets, tables) should be dismantled — screws in a labelled ziplock bag taped to the item. Reserved items use Reserved Items Tag. MOD boxes must be labelled with panel size and colourway. Anything in or out must be tracked on the inventory list.",
+    "contentType": "mixed",
+    "fullContent": {
+      "sections": [
+        {
+          "heading": "Warehouse locations",
+          "type": "callout",
+          "text": "Warehouse A is in store. Warehouse B is in Omnicorp beside our store."
+        },
+        {
+          "heading": "Existing stock (not reserved)",
+          "type": "steps",
+          "steps": [
+            "Ensure all items are properly bubble wrapped and cling wrapped with no holes — prevents moisture.",
+            "Label item: Name, SKU, quantity (if more than 1).",
+            "If item is too large (cabinet, table), dismantle it.",
+            "All screws must be in a labelled ziplock bag, taped to the item."
+          ]
+        },
+        {
+          "heading": "Reserved items",
+          "type": "steps",
+          "steps": [
+            "Bubble wrap and cling wrap securely — no holes.",
+            "Label using Reserved Items Tag.",
+            "Dismantle oversized items and bag all screws in a labelled ziplock."
+          ]
+        },
+        {
+          "heading": "MOD (Moving Units) inventory",
+          "type": "steps",
+          "steps": [
+            "All MOD boxes must be labelled with the correct panel size and colourway.",
+            "Anything taken out or placed back must be noted on the inventory list."
+          ]
+        }
+      ]
+    },
+    "relatedProductIds": []
+  }
+]

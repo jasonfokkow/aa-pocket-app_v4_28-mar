@@ -1,0 +1,15 @@
+.badge {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 1;
+}
+
+.inStock { color: var(--color-success-text); }
+.preorder { color: var(--color-warning-text); }
+.vintage { color: var(--color-text-secondary); }
+.evergreen { color: var(--color-text-primary); }
+.fc { color: var(--color-accent); }

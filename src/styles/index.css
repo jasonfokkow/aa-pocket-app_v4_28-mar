@@ -1,0 +1,99 @@
+@import '@fontsource/eb-garamond/400.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Fonts */
+  --font-heading: 'EB Garamond', Georgia, serif;
+  --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+
+  /* Colours: Brand */
+  --color-bg: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #f8f8f8;
+  --color-surface-highlight: #f1ffa7;
+  --color-text-primary: #030303;
+  --color-text-secondary: #9d9d9d;
+  --color-accent: #be1823;
+  --color-border: #64635b;
+  --color-divider: rgba(3, 3, 3, 0.1);
+
+  /* Colours: Semantic */
+  --color-success-text: #2D6A4F;
+  --color-success-bg: #EFF5F1;
+  --color-warning-text: #8B5E00;
+  --color-warning-bg: #FDF6E3;
+  --color-error-text: #9B2335;
+  --color-error-bg: #F9ECED;
+  --color-disabled-text: #B8B5AF;
+  --color-disabled-border: #D4D1CB;
+  --color-disabled-bg: #F0EFED;
+  --color-overlay: rgba(3, 3, 3, 0.45);
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-xxl: 48px;
+
+  /* Transitions */
+  --transition-nav: 0.25s ease-out;
+  --transition-tab: 0.15s ease-out;
+  --transition-card: 0.2s ease-out;
+  --transition-accordion: 0.2s ease-out;
+  --transition-button: 0.1s;
+  --transition-search: 0.15s ease-out;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-ui);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: var(--font-ui);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input {
+  font-family: var(--font-ui);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Utility */
+.divider {
+  height: 1px;
+  background-color: var(--color-divider);
+  width: 100%;
+}
