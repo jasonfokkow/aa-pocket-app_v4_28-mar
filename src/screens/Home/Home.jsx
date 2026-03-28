@@ -5,7 +5,7 @@ import { useSession } from '../../context/SessionContext';
 import sopData from '../../data/sop.json';
 import productsData from '../../data/products.json';
 import styles from './Home.module.css';
-import aaPocketLogo from '../../assets/aa-pocket-logo.png';
+import aaPocketLogo from '../../assets/aa-pocket-logo.svg';
 
 // Build flashcard deck from SOP topics + evergreen products
 function buildAllCards() {
