@@ -105,7 +105,7 @@
 }
 
 .btnSecondary {
-  border-color: var(--color-disabled-border);
+  border-color: var(--color-divider);
   color: var(--color-text-secondary);
 }
 
