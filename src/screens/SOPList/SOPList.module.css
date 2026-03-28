@@ -45,7 +45,10 @@
   color: var(--color-text-secondary);
   background: none;
   border: none;
-  padding-bottom: 8px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
   border-bottom: 2px solid transparent;
   transition: color var(--transition-tab), border-color var(--transition-tab);
   flex-shrink: 0;

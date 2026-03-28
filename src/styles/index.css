@@ -20,7 +20,7 @@
   --color-surface-subtle: #f8f8f8;
   --color-surface-highlight: #f1ffa7;
   --color-text-primary: #030303;
-  --color-text-secondary: #9d9d9d;
+  --color-text-secondary: #767676;
   --color-accent: #be1823;
   --color-border: #64635b;
   --color-divider: rgba(3, 3, 3, 0.1);
@@ -75,6 +75,11 @@ button {
   cursor: pointer;
   border: none;
   background: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
 }
 
 a {
