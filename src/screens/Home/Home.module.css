@@ -48,7 +48,7 @@
   font-family: var(--font-ui);
   font-size: 13px;
   color: var(--color-text-secondary);
-  padding: var(--space-lg) var(--space-md) var(--space-sm);
+  padding: 12px var(--space-md) var(--space-sm);
 }
 
 .card {
