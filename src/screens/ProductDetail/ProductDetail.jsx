@@ -31,10 +31,8 @@ export default function ProductDetail() {
         <div className={styles.topInfo}>
           <div className={styles.badges}>
             <Badge variant={product.type} />
-            {product.hasFlashcard && <Badge variant="fc" />}
           </div>
           <span className={styles.price}>{product.price}</span>
-          <Badge variant={product.stockStatus} />
         </div>
 
         <div className={styles.divider} />

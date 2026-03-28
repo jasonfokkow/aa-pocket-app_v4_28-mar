@@ -26,23 +26,25 @@ export default function Catalogue() {
       <Header title="Catalogue" />
 
       <div className={styles.body}>
-        <SearchBar value={query} onChange={setQuery} placeholder="Search products..." />
-        <div className={styles.divider} />
+        <div className={styles.stickyBar}>
+          <SearchBar value={query} onChange={setQuery} placeholder="Search products..." />
+          <div className={styles.divider} />
 
-        <div className={styles.tabsWrapper}>
-          <div className={styles.tabs}>
-            {FILTERS.map(f => (
-              <button
-                key={f}
-                className={`${styles.tab} ${activeFilter === f ? styles.tabActive : ''}`}
-                onClick={() => setActiveFilter(f)}
-              >
-                {FILTER_LABELS[f]}
-              </button>
-            ))}
+          <div className={styles.tabsWrapper}>
+            <div className={styles.tabs}>
+              {FILTERS.map(f => (
+                <button
+                  key={f}
+                  className={`${styles.tab} ${activeFilter === f ? styles.tabActive : ''}`}
+                  onClick={() => setActiveFilter(f)}
+                >
+                  {FILTER_LABELS[f]}
+                </button>
+              ))}
+            </div>
           </div>
+          <div className={styles.divider} />
         </div>
-        <div className={styles.divider} />
 
         {filtered.length === 0 ? (
           <p className={styles.empty}>No results for "{query}"</p>

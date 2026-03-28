@@ -19,24 +19,9 @@
   align-items: center;
   justify-content: center;
   gap: var(--space-xs);
-  position: relative;
   transition: opacity var(--transition-tab);
 }
 
-.tab::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 20%;
-  right: 20%;
-  height: 2px;
-  background: transparent;
-  transition: background var(--transition-tab);
-}
-
-.tab.active::before {
-  background: var(--color-accent);
-}
 
 .icon {
   display: flex;

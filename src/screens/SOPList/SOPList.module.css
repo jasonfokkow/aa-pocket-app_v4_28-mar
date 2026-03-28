@@ -41,8 +41,8 @@
   padding: 0 var(--space-md);
   gap: var(--space-lg);
   white-space: nowrap;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .tab {
