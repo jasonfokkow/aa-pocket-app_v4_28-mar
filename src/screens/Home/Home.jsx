@@ -5,6 +5,7 @@ import { useSession } from '../../context/SessionContext';
 import sopData from '../../data/sop.json';
 import productsData from '../../data/products.json';
 import styles from './Home.module.css';
+import aaPocketLogo from '../../assets/aa-pocket-logo.png';
 
 // Build flashcard deck from SOP topics + evergreen products
 function buildAllCards() {
@@ -79,8 +80,7 @@ export default function Home() {
     <div className={styles.screen}>
       <div className={styles.topSection}>
         <div className={styles.greeting}>
-          <span className={styles.wordmark}>Aa</span>
-          <span className={styles.greetingText}>Staff companion</span>
+          <img src={aaPocketLogo} alt="Aa Pocket" className={styles.logoImage} />
         </div>
         <div className={styles.divider} />
       </div>

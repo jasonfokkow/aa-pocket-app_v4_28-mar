@@ -31,6 +31,11 @@
   letter-spacing: 0.02em;
 }
 
+.logoImage {
+  height: 40px;
+  width: auto;
+}
+
 .divider {
   height: 1px;
   background: var(--color-divider);
