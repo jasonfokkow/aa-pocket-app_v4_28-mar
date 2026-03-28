@@ -81,9 +81,6 @@ export default function SOPDetail() {
           <span className={styles.summaryLabel}>Summary</span>
           <div className={styles.inlineDivider} />
           <p className={styles.summaryText}>{topic.summary}</p>
-          <button className={styles.viewFull} onClick={() => setExpanded(true)}>
-            View full SOP ↓
-          </button>
         </div>
 
         <div className={styles.divider} />

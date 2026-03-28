@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { CaretRight, MagnifyingGlass } from '@phosphor-icons/react';
+import { CaretRight } from '@phosphor-icons/react';
 import Header from '../../components/Header/Header';
 import SearchBar from '../../components/SearchBar/SearchBar';
 import sopData from '../../data/sop.json';
@@ -22,35 +22,31 @@ export default function SOPList() {
     return matchesCategory && matchesQuery;
   });
 
-  const rightSlot = (
-    <button className={styles.iconBtn} aria-label="Search">
-      <MagnifyingGlass weight="light" size={24} color="var(--color-text-primary)" />
-    </button>
-  );
-
   return (
     <div className={styles.screen}>
-      <Header title="SOP" rightSlot={rightSlot} />
+      <Header title="SOP" />
 
       <div className={styles.body}>
-        <SearchBar value={query} onChange={setQuery} placeholder="Search SOPs..." />
-        <div className={styles.divider} />
+        <div className={styles.stickyBar}>
+          <SearchBar value={query} onChange={setQuery} placeholder="Search SOPs..." />
+          <div className={styles.divider} />
 
-        {/* Category tabs */}
-        <div className={styles.tabsWrapper}>
-          <div className={styles.tabs}>
-            {CATEGORIES.map(cat => (
-              <button
-                key={cat}
-                className={`${styles.tab} ${activeCategory === cat ? styles.tabActive : ''}`}
-                onClick={() => setActiveCategory(cat)}
-              >
-                {CATEGORY_LABELS[cat]}
-              </button>
-            ))}
+          {/* Category tabs */}
+          <div className={styles.tabsWrapper}>
+            <div className={styles.tabs}>
+              {CATEGORIES.map(cat => (
+                <button
+                  key={cat}
+                  className={`${styles.tab} ${activeCategory === cat ? styles.tabActive : ''}`}
+                  onClick={() => setActiveCategory(cat)}
+                >
+                  {CATEGORY_LABELS[cat]}
+                </button>
+              ))}
+            </div>
           </div>
+          <div className={styles.divider} />
         </div>
-        <div className={styles.divider} />
 
         {/* Topic list */}
         <div className={styles.list}>

@@ -137,18 +137,6 @@ export default function Home() {
           </div>
         )}
 
-        <div className={styles.divider} />
-
-        {/* Quick access */}
-        <div className={styles.quickAccess}>
-          <button className={styles.quickLink} onClick={() => navigate('/sop')}>
-            SOP Reference
-          </button>
-          <div className={styles.verticalDivider} />
-          <button className={styles.quickLink} onClick={() => navigate('/catalogue')}>
-            Product Catalogue
-          </button>
-        </div>
       </div>
     </div>
   );

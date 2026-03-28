@@ -8,6 +8,13 @@
   padding-top: 56px;
 }
 
+.stickyBar {
+  position: sticky;
+  top: 56px;
+  background: var(--color-bg);
+  z-index: 10;
+}
+
 .iconBtn {
   width: 44px;
   height: 44px;

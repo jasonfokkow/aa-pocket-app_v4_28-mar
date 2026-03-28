@@ -55,19 +55,13 @@
 
 .flashcard {
   flex: 1;
-  border: 1px solid var(--color-divider);
   padding: var(--space-lg);
-  background: var(--color-surface);
+  background: var(--color-surface-subtle);
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
   cursor: pointer;
   min-height: 300px;
-  transition: border-color var(--transition-card);
-}
-
-.flashcard:active {
-  border-color: rgba(3, 3, 3, 0.2);
 }
 
 .cardCategory {

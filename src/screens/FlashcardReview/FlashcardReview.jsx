@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { CaretLeft, Pause, Play } from '@phosphor-icons/react';
+import { CaretLeft, Pause } from '@phosphor-icons/react';
 import { useSession } from '../../context/SessionContext';
 import { useSpacedRepetition } from '../../hooks/useSpacedRepetition';
 import styles from './FlashcardReview.module.css';
@@ -67,15 +67,16 @@ export default function FlashcardReview() {
           <CaretLeft weight="light" size={24} color="var(--color-text-primary)" />
         </button>
         <span className={styles.sessionLabel}>{sessionLabel}</span>
-        <button
-          className={styles.headerBtn}
-          onClick={() => setPaused(p => !p)}
-          aria-label={paused ? 'Resume' : 'Pause'}
-        >
-          {paused
-            ? <Play weight="light" size={24} color="var(--color-text-primary)" />
-            : <Pause weight="light" size={24} color="var(--color-text-primary)" />}
-        </button>
+        {!paused && (
+          <button
+            className={styles.headerBtn}
+            onClick={() => setPaused(true)}
+            aria-label="Pause"
+          >
+            <Pause weight="light" size={24} color="var(--color-text-primary)" />
+          </button>
+        )}
+        {paused && <div className={styles.headerBtn} />}
       </div>
       <div className={styles.divider} />
 

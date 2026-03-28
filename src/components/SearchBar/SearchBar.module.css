@@ -1,17 +1,10 @@
 .wrapper {
   display: flex;
   align-items: center;
-  margin: 0 var(--space-md);
-  border: 1px solid rgba(3, 3, 3, 0.15);
   height: 44px;
-  padding: 0 12px;
+  padding: 0 var(--space-md);
   gap: var(--space-sm);
   background: var(--color-bg);
-  transition: border-color var(--transition-search);
-}
-
-.wrapper:focus-within {
-  border-color: var(--color-accent);
 }
 
 .iconLeft {

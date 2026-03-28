@@ -64,7 +64,6 @@ export default function Catalogue() {
                   </div>
                   <span className={styles.cardName}>{product.name}</span>
                   <span className={styles.cardPrice}>{product.price}</span>
-                  <Badge variant={product.stockStatus} />
                 </div>
               </button>
             ))}
