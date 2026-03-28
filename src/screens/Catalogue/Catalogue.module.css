@@ -47,8 +47,9 @@
   min-height: 44px;
   display: flex;
   align-items: center;
-  padding-bottom: 4px;
+  padding-bottom: 1px;
   border-bottom: 2px solid transparent;
+  margin-bottom: 4px;
   transition: color var(--transition-tab), border-color var(--transition-tab);
   flex-shrink: 0;
 }
