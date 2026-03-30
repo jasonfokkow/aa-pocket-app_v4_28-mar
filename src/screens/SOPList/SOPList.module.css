@@ -48,6 +48,7 @@
 .tab {
   font-family: var(--font-ui);
   font-size: 14px;
+  line-height: 1;
   font-weight: 500;
   color: var(--color-text-secondary);
   background: none;
@@ -55,16 +56,28 @@
   min-height: 44px;
   display: flex;
   align-items: center;
-  padding-bottom: 1px;
-  border-bottom: 2px solid transparent;
-  margin-bottom: 4px;
-  transition: color var(--transition-tab), border-color var(--transition-tab);
+  position: relative;
+  transition: color var(--transition-tab);
   flex-shrink: 0;
+}
+
+.tab::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: transparent;
+  top: calc(50% + 11px); /* 50% + (14px font-size / 2) + 4px gap */
+  transition: background var(--transition-tab);
 }
 
 .tabActive {
   color: var(--color-text-primary);
-  border-bottom-color: var(--color-text-primary);
+}
+
+.tabActive::after {
+  background: var(--color-text-primary);
 }
 
 .list {
