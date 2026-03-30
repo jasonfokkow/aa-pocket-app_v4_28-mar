@@ -12,4 +12,5 @@
 .preorder { color: var(--color-warning-text); }
 .vintage { color: var(--color-text-secondary); }
 .evergreen { color: var(--color-text-primary); }
+.aaGrade { color: var(--color-accent); }
 .fc { color: var(--color-accent); }

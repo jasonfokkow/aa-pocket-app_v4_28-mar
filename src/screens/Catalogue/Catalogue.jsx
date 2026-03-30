@@ -7,8 +7,8 @@ import Badge from '../../components/Badge/Badge';
 import productsData from '../../data/products.json';
 import styles from './Catalogue.module.css';
 
-const FILTERS = ['all', 'vintage', 'evergreen'];
-const FILTER_LABELS = { all: 'All', vintage: 'Vintage', evergreen: 'Evergreen' };
+const FILTERS = ['all', 'evergreen', 'aa-grade', 'vintage'];
+const FILTER_LABELS = { all: 'All', evergreen: 'Evergreen', 'aa-grade': 'Aa Grade', vintage: 'Vintage' };
 
 export default function Catalogue() {
   const navigate = useNavigate();
@@ -57,7 +57,9 @@ export default function Catalogue() {
                 onClick={() => navigate(`/catalogue/${product.id}`)}
               >
                 <div className={styles.imageArea}>
-                  <ImageIcon weight="light" size={32} color="var(--color-text-secondary)" />
+                  {product.image
+                    ? <img src={product.image} alt={product.name} className={styles.productImage} />
+                    : <ImageIcon weight="light" size={32} color="var(--color-text-secondary)" />}
                 </div>
                 <div className={styles.cardInfo}>
                   <div className={styles.cardBadges}>

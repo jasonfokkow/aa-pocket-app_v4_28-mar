@@ -5,6 +5,7 @@ const variantMap = {
   'preorder': { label: 'PREORDER', className: 'preorder' },
   'vintage': { label: 'VINTAGE', className: 'vintage' },
   'evergreen': { label: 'EVERGREEN', className: 'evergreen' },
+  'aa-grade': { label: 'AA GRADE', className: 'aaGrade' },
   'fc': { label: 'FC', className: 'fc' },
 };
 

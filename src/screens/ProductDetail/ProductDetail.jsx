@@ -22,7 +22,9 @@ export default function ProductDetail() {
       <div className={styles.body}>
         {/* Image */}
         <div className={styles.imageArea}>
-          <ImageIcon weight="light" size={48} color="var(--color-text-secondary)" />
+          {product.image
+            ? <img src={product.image} alt={product.name} className={styles.productImage} />
+            : <ImageIcon weight="light" size={48} color="var(--color-text-secondary)" />}
         </div>
 
         <div className={styles.divider} />
@@ -57,6 +59,12 @@ export default function ProductDetail() {
               <div className={styles.detailRow}>
                 <span className={styles.detailKey}>Origin</span>
                 <span className={styles.detailVal}>{product.origin}</span>
+              </div>
+            )}
+            {product.condition && (
+              <div className={styles.detailRow}>
+                <span className={styles.detailKey}>Condition</span>
+                <span className={styles.detailVal}>{product.condition}</span>
               </div>
             )}
             {product.variants && product.variants.length > 0 && (
