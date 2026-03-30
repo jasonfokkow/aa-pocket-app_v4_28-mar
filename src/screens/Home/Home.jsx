@@ -2,39 +2,11 @@ import { useNavigate } from 'react-router-dom';
 import { Cards, Timer, CheckCircle } from '@phosphor-icons/react';
 import { useSpacedRepetition } from '../../hooks/useSpacedRepetition';
 import { useSession } from '../../context/SessionContext';
-import sopData from '../../data/sop.json';
-import productsData from '../../data/products.json';
+import flashcardsData from '../../data/flashcards.json';
 import styles from './Home.module.css';
 import aaPocketLogo from '../../assets/aa-pocket-logo.svg';
 
-// Build flashcard deck from SOP topics + evergreen products
-function buildAllCards() {
-  const sopCards = sopData.map(topic => ({
-    id: `sop-${topic.id}`,
-    type: 'sop',
-    topicId: topic.id,
-    title: topic.title,
-    question: `What are the key rules for: ${topic.title}?`,
-    answer: topic.summary,
-    category: topic.category,
-  }));
-
-  const productCards = productsData
-    .filter(p => p.type === 'evergreen' && p.hasFlashcard && p.flashcardNotes)
-    .map(p => ({
-      id: `product-${p.id}`,
-      type: 'product',
-      productId: p.id,
-      title: p.name,
-      question: `What should you know about ${p.name} when talking to a customer?`,
-      answer: p.flashcardNotes,
-      category: 'products',
-    }));
-
-  return [...sopCards, ...productCards];
-}
-
-const ALL_CARDS = buildAllCards();
+const ALL_CARDS = flashcardsData;
 const ALL_CARD_IDS = ALL_CARDS.map(c => c.id);
 
 const QUICK_COUNT = 8;
